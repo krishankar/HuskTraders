@@ -6,6 +6,7 @@ class WorkersStatus extends Component {
 		this.state = {};
 	}
 
+	
 	render() {
 		return (
 			<div className="rm container">

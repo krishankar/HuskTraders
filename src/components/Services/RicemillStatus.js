@@ -6,6 +6,7 @@ class RicemillStatus extends Component {
 		this.state = {};
 	}
 
+	
 	render() {
 		return (
 			<div className="rm container">
