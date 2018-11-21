@@ -10,10 +10,10 @@ class Header extends Component{
                 <div className="col-lg-6 top-content-left">
                   <ul className="header-info-w3ls">
                     <li>
-                      <i className="far fa-envelope" /> <a href="mailto:info@example.com">shankar.krish777@gmail.com</a>
+                      <i className="far fa-envelope" /> <a href="mailto:info@example.com">mail@example.com</a>
                     </li>
                     <li>
-                      <i className="fas fa-phone" /> <a href="tel:+02223688199">9951332209</a>
+                      <i className="fas fa-phone" /> <a href="tel:+02223688199">+0222 3688 199</a>
                     </li>
                     <li>
                       <i className="far fa-clock" /> Mon – Fri : 9:00 AM - 6:00 PM </li>
