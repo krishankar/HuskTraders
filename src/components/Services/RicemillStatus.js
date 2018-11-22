@@ -6,6 +6,8 @@ class RicemillStatus extends Component {
 		this.state = {};
 	}
 
+
+	
 	render() {
 		return (
 			<div className="rm container">
@@ -23,6 +25,8 @@ class RicemillStatus extends Component {
 								<a href="#">Link 3</a>
 							</div>
 						</div>
+
+						{/* <input type="text" className="form-control" id="input" placeholder="text" /> */}
 					</div>
 				</div>
 
@@ -44,6 +48,7 @@ class RicemillStatus extends Component {
 							<div className="float-right col-md-6 px-5">
 								<input type="date" className="form-control " id="inputTo" placeholder="To" />
 							</div>
+
 						</div>
 					</div>
 				</form>
@@ -93,6 +98,7 @@ class RicemillStatus extends Component {
 				</div>
 			</div>
 			</div>
+
 			</div>
 		);
 	}
