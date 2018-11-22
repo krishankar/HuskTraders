@@ -9,6 +9,7 @@ import AboutPage from './containers/Global/AboutPage';
 import NewloadPage from './containers/Global/NewloadPage';
 import RicemillStatusPage from './containers/Services/RicemillStatusPage';
 import WorkersStatusPage from './containers/Services/WorkersStatusPage';
+import LoadStatusPage from './containers/Services/LoadStatusPage';
 // import NewloadPage from './containers/Global/NewloadPage'
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
 					<Route exact path="/newload" component={NewloadPage} />
 					<Route exact path="/ricemillstatus" component={RicemillStatusPage} />
 					<Route exact path="/workersstatus" component={WorkersStatusPage} />
+					<Route exact path="/loadstatus" component={LoadStatusPage}/>
 					{/* <Route exact path="/newload" component={NewloadPage}/> */}
 					{/* <Route exact path="/" component={Home}/> */}
 				</div>

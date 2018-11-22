@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+   }  
+   table {
+     border-collapse: collapse;
+   }
+   td, th {
+     padding:0; 
+     margin:0;
+     border:solid 1px black;
+     vertical-align:top;
+     position:relative;
+     padding:8px 16px;
+     width:200px;
+     text-align:left; 
+   }
+   th {
+     background-color:white;
+   }
+   .table-cell--view {
+     background-color:lightgray;
+   }
+   .table-cell--edit:focus {
+     box-shadow: inset 0 0 0 1px black; 
+   /*   border:solid 1px lightblue;  */
+     outline:0; 
+   }
+   .table-cell-amount {
+     text-align:right;
+   }
+   h1{
+     color:black
+   }    

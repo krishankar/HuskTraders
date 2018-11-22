@@ -48,7 +48,7 @@ class Menu extends Component {
 													<i className="fas fa-angle-down" />
 												</a>
 												<div className="dropdown-menu" aria-labelledby="navbarDropdown">
-													<a className="dropdown-item" href="services.html">
+													<a className="dropdown-item" href="/loadstatus">
 														Load Status
 													</a>
 													<a className="dropdown-item" href="/ricemillstatus" title>
