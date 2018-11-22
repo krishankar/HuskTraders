@@ -1,28 +1,139 @@
-.App {
+/* .App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 40vmin;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
 
-.App-intro {
-  font-size: large;
+.App-link {
+  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btn {
+  width:37px;
+  height:37px
+}
+.but{
+  width:50px
+}
+footer{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 35px;
+  width: 100%;
+  background: black;
+}
+.f{
+  color:white
+}
+body{
+  background-image:url("http://www.factory-buildings.com/images/page/pompey167big.jpg");
+  background-size: cover;
+
+}
+  button{
+float: right;
+} */
+
+.nl {
+	font-size: 2rem;
+}
+
+.nlp {
+	height: 1200px;
+}
+
+.box {
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+
+.t {
+	width: 50%;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: black;
+	background-color: inherit;
+	font-family: inherit;
+	margin: 0;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown {
+	float: right;
+}
+
+table {
+	width: 100%;
+  table-layout: fixed;
+  border:1px solid #000;
+	margin:auto;
+
+}
+
+.tbl {
+  height: 500px;
+  background-color: rgba(255,255,255,0.3);
+  
+}
+
+th{
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 12px;
+  color: black;
+  text-transform: uppercase;
 }

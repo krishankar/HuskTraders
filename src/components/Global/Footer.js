@@ -27,12 +27,12 @@ class Footer extends Component{
                     </div>
                     <div className="contact-info">
                     <h4>Location :</h4>
-                    <p>0926k 4th block building, king Avenue, New York City.</p>
+                    <p>Bhimavaram West Godavari District AP 534201.</p>
                     <div className="phone">
                         <h4>Contact :</h4>
-                        <p>Phone : +121 098 8907 9987</p>
+                        <p>Phone : 9951332209</p>
                         <p>Email :
-                        <a href="mailto:info@example.com">info@example.com</a>
+                        <a href="mailto:shankar.krish777@gmail.com">shankar.krish777@gmail.com</a>
                         </p>
                     </div>
                     </div>

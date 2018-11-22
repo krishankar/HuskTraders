@@ -11,16 +11,17 @@ class Newload extends Component{
 
     render(){
         return(
-        <div className="container">
+        <div className="container nlp text-center my-5  box">
+         <label className="my-4 nl">
+                New Load Form
+            </label>
             <div>
                 <form >
-                    <div className="form-row mt-5">
+                    <div className="form-row">
                         <div className="form-group col-md-6">
-                            <label for="inputFrom">From</label>
                             <input type="text" className="form-control" id="inputFrom" placeholder="From"/>
                         </div>
                         <div className="form-group col-md-6">
-                            <label for="inputTo">To</label>
                             <input type="text" className="form-control" id="inputTo" placeholder="To"/>
                         </div>
                     </div>
@@ -30,26 +31,22 @@ class Newload extends Component{
                         next
                     </button>
              </div>
-            <div className="newLoad mt-5 ">
-            <label>
-                NewLoad
+            <div className="newLoad mt-5 container text-cente">
+            <label className="nl my-4">
+                New Load Details
             </label>
                 <form className=" text-center">
                     <div className="form-group col-md-6">
-                        <label for="formGroupDateInput">Date</label>
-                        <input type="date" className="form-control" id="inputDate" placeholder="Date"/>
+                        <input type="date" className="form-control my-4" id="inputDate" placeholder="Date"/>
                     </div>
                     <div className="form-group col-md-6">
-                        <label for="formGroupVehicleNumber">VehicleNumber</label>
-                        <input type="text" className="form-control" id="inputVehicleNumber" placeholder="VehicleNumber"/>
+                        <input type="text" className="form-control my-4" id="inputVehicleNumber" placeholder="VehicleNumber"/>
                     </div>
                     <div className="form-group col-md-6">
-                        <label for="formGroupBillNumber">BillNumber</label>
-                        <input type="text" className="form-control" id="inputBillNumber" placeholder="BillNumber"/>
+                        <input type="text" className="form-control my-4" id="inputBillNumber" placeholder="BillNumber"/>
                     </div>
                     <div className="form-group col-md-6">
-                        <label for="formGroupWeight">Weight</label>
-                        <input type="text" className="form-control" id="inputWeight" placeholder="Weight"/>
+                        <input type="text" className="form-control my-4" id="inputWeight" placeholder="Weight"/>
                     </div>
                    
                 </form>
@@ -57,8 +54,8 @@ class Newload extends Component{
                         next
                     </button>
             </div>
-        <div className="workersdetails mt-5">
-            <label>
+        <div className="workersdetails mt-5 container">
+            <label className="nl my-4">
                 Worker's Details
             </label>
             
@@ -152,10 +149,11 @@ class Newload extends Component{
                     </div>
                 </div>  
             </form>
+            <div className="mt-3">
             <button>
                 Submit
             </button>
-
+            </div>
         </div>
 
         </div>
