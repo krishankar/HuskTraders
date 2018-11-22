@@ -68,17 +68,17 @@ class Menu extends Component {
 												</a>
 											</li>
 											<li className="nav-item">
-												<a className="nav-link" href="gallery.html">
+												<a className="nav-link" href="/gallery">
 													Gallery
 												</a>
 											</li>
 											<li className="nav-item">
-												<a className="nav-link" href="blog.html">
+												<a className="nav-link" href="/blog">
 													Blog
 												</a>
 											</li>
 											<li className="nav-item">
-												<a className="nav-link" href="contact.html">
+												<a className="nav-link" href="/contact">
 													Contact
 												</a>
 											</li>
