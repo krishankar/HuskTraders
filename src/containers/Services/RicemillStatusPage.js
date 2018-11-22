@@ -12,7 +12,7 @@ class RicemillStatusPage extends Component {
 
 	render() {
 		return (
-			<div className="pt-5">
+			<div>
 				<Header />
 				<Menu />
 				<Ricemill />
