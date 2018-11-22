@@ -6,8 +6,6 @@ class RicemillStatus extends Component {
 		this.state = {};
 	}
 
-
-	
 	render() {
 		return (
 			<div className="rm container">
@@ -31,10 +29,10 @@ class RicemillStatus extends Component {
 				</div>
 
 				<form>
-					<div className="form-row text-center container">
+					<div className="form-row text-center container d-flex">
 						<div className="form-group row col-md-6">
-							<label for="formGroupNameInput col-md-6">From</label>
-							<div className="float-right col-md-6 px-5">
+							<label for="formGroupNameInput col-md-6  ">From :</label>
+							<div className="float-right col-md-6 pr-5">
 								<input
 									type="date"
 									className="form-control float-right"
@@ -43,12 +41,11 @@ class RicemillStatus extends Component {
 								/>
 							</div>
 						</div>
-						<div className="form-group row col-md-6 position0">
-							<label for="formGroupNameInput col-md-6">To</label>
-							<div className="float-right col-md-6 px-5">
+						<div className="form-group row col-md-6 ">
+							<label for="formGroupNameInput col-md-6">To :</label>
+							<div className="float-right col-md-6 pr-5 ">
 								<input type="date" className="form-control " id="inputTo" placeholder="To" />
 							</div>
-
 						</div>
 					</div>
 				</form>
@@ -87,18 +84,17 @@ class RicemillStatus extends Component {
 						<td>item</td>
 					</tr>
 				</table>
-				<div className="row col-md-12">
-				<div className=" col-md-6">
-				<div className="t my-3">
-					<label for="formGroupNameInput">Total Payment</label>
-					<input type="text" className="form-control" id="inputFrom" placeholder="Total Payment" />
+				<div className="row col-md-12 container d-flex ">
+					<div className=" col-md-6 mr-0">
+						<div className="t my-3">
+							<label for="formGroupNameInput">Total Payment</label>
+							<input type="text" className="form-control" id="inputFrom" placeholder="Total Payment" />
+						</div>
+						<div className="mb-3">
+							<button>PRINT</button>
+						</div>
+					</div>
 				</div>
-				<div className="mb-3">
-					<button>PRINT</button>
-				</div>
-			</div>
-			</div>
-
 			</div>
 		);
 	}
