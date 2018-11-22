@@ -6,7 +6,6 @@ class WorkersStatus extends Component {
 		this.state = {};
 	}
 
-	
 	render() {
 		return (
 			<div className="rm container">
@@ -24,42 +23,68 @@ class WorkersStatus extends Component {
 								<a href="#">Link 3</a>
 							</div>
 						</div>
-						{/* <input type="text" className="form-control" id="input" placeholder="text" /> */}
 					</div>
 				</div>
 
-				<form>
-					<div className="form-row text-center">
-						<div className="form-group col-md-6">
-							<label for="formGroupNameInput">From</label>
-							<input type="date" className="form-control" id="inputFrom" placeholder="From" />
+					<form>
+					<div className="form-row text-center container">
+						<div className="form-group row col-md-6">
+							<label for="formGroupNameInput col-md-6">From</label>
+							<div className="float-right col-md-6 px-5">
+								<input
+									type="date"
+									className="form-control float-right"
+									id="inputFrom"
+									placeholder="From"
+								/>
+							</div>
 						</div>
-						<div className="form-group col-md-6">
-							<label for="formGroupNameInput">To</label>
-							<input type="date" className="form-control" id="inputTo" placeholder="To" />
+						<div className="form-group row col-md-6 position0">
+							<label for="formGroupNameInput col-md-6">To</label>
+							<div className="float-right col-md-6 px-5">
+								<input type="date" className="form-control " id="inputTo" placeholder="To" />
+							</div>
 						</div>
 					</div>
 				</form>
 
-				<div class="tbl mt-5">
-					<table cellpadding="0" cellspacing="0" border="0">
-						<thead>
-							<tr>
-								<th>S.No</th>
-								<th>Date</th>
-								<th>Vehical</th>
-								<th>Ammount</th>
-							</tr>
-						</thead>
-					</table>
-				</div>
-				<div className="t my-5">
+				<table>
+					<tr>
+						<th>S.No</th>
+						<th>Date</th>
+						<th>Vehical</th>
+						<th>Ammount</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>item</td>
+						<td>item</td>
+						<td>item</td>
+					</tr>
+					<tr>
+						<td>2</td>
+						<td>item</td>
+						<td>item</td>
+						<td>item</td>
+					</tr>
+					<tr>
+						<td>3</td>
+						<td>item</td>
+						<td>item</td>
+						<td>item</td>
+					</tr>
+				</table>
+				<div className="row col-md-12">
+				<div className=" col-md-6">
+				<div className="t my-3">
 					<label for="formGroupNameInput">Total Payment</label>
 					<input type="text" className="form-control" id="inputFrom" placeholder="Total Payment" />
 				</div>
-                <div className="my-3">
-				<button>PRINT</button>
-                </div>
+				<div className="mb-3">
+					<button>PRINT</button>
+				</div>
+			</div>
+			</div>
 			</div>
 		);
 	}
