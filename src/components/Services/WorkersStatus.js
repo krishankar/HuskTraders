@@ -9,11 +9,12 @@ class WorkersStatus extends Component {
 	render() {
 		return (
 			<div className="rm container">
+				<div className=" d-flex">
 				<div className="text-center">
-					<div className="form-group t my-5">
-						<label for="formGroupNameInput">Name</label>
+					<div className="form-group t my-5 ">
+						<label for="formGroupName">Name :</label>
 						<div class="dropdown">
-							<button class="dropbtn">
+							<button class="dropbtn  px-5">
 								Company Name
 								<i class="fa fa-caret-down" />
 							</button>
@@ -22,6 +23,7 @@ class WorkersStatus extends Component {
 								<a href="#">Link 2</a>
 								<a href="#">Link 3</a>
 							</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -29,8 +31,11 @@ class WorkersStatus extends Component {
 					<form>
 					<div className="form-row text-center container">
 						<div className="form-group row col-md-6">
-							<label for="formGroupNameInput col-md-6">From</label>
-							<div className="float-right col-md-6 px-5">
+						<div className="f">
+							<label for="formGroupNameInput col-md-6">From: 
+							</label>
+							</div>
+							<div className="float-right col-md-6 px-3">
 								<input
 									type="date"
 									className="form-control float-right"
@@ -74,17 +79,17 @@ class WorkersStatus extends Component {
 						<td>item</td>
 					</tr>
 				</table>
-				<div className="row col-md-12">
-				<div className=" col-md-6">
-				<div className="t my-3">
-					<label for="formGroupNameInput">Total Payment</label>
-					<input type="text" className="form-control" id="inputFrom" placeholder="Total Payment" />
+				<div className=" container d-flex">
+					<div className="ttp mt-3 pt-2">
+						<label for="formGroupNameInput">Total Payment :</label>
+					</div>
+					<div className="tp mt-3">
+						<input type="text" className="form-control " id="inputFrom" placeholder="Total Payment" />
+					</div>
 				</div>
-				<div className="mb-3">
+				<div className="mt-5 pr justify-content-center ">
 					<button>PRINT</button>
 				</div>
-			</div>
-			</div>
 			</div>
 		);
 	}

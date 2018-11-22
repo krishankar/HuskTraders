@@ -9,9 +9,10 @@ class RicemillStatus extends Component {
 	render() {
 		return (
 			<div className="rm container">
+				<div className=" d-flex">
 				<div className="text-center">
-					<div className="form-group t my-5">
-						<label for="formGroupNameInput">Name</label>
+					<div className="form-group  my-5 ">
+						<label for="formGroupName">Name :</label>
 						<div class="dropdown">
 							<button class="dropbtn">
 								Company Name
@@ -21,6 +22,7 @@ class RicemillStatus extends Component {
 								<a href="#">Link 1</a>
 								<a href="#">Link 2</a>
 								<a href="#">Link 3</a>
+							</div>
 							</div>
 						</div>
 
@@ -84,16 +86,16 @@ class RicemillStatus extends Component {
 						<td>item</td>
 					</tr>
 				</table>
-				<div className="row col-md-12 container d-flex ">
-					<div className=" col-md-6 mr-0">
-						<div className="t my-3">
-							<label for="formGroupNameInput">Total Payment</label>
-							<input type="text" className="form-control" id="inputFrom" placeholder="Total Payment" />
-						</div>
-						<div className="mb-3">
-							<button>PRINT</button>
-						</div>
+				<div className=" container d-flex">
+					<div className="ttp mt-3 pt-2">
+						<label for="formGroupNameInput">Total Amount :</label>
 					</div>
+					<div className="tp mt-3">
+						<input type="text" className="form-control " id="inputFrom" placeholder="Total Amount" />
+					</div>
+				</div>
+				<div className="mt-5 pr container">
+					<button>PRINT</button>
 				</div>
 			</div>
 		);
