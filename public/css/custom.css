@@ -6,3 +6,11 @@
     color: white;
 }
 
+.LoginTitle{
+    text-align: center;
+    font-family: 'Algerian';
+    font-size: 25px;
+}
+.LoginContent{
+    text-align: center;
+}

@@ -19,7 +19,13 @@ body a,body span {
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
     -o-transition: 0.5s all;
-    -ms-transition: 0.5s all;
+    -ms-transition: 0.5s all;   
+}
+
+.header-info-w3ls{
+    font-family: 'BenchNine', sans-serif;
+}
+.nav-link{
     font-family: 'BenchNine', sans-serif;
 }
 
@@ -1054,7 +1060,27 @@ h4.progress-tittle {
     -moz-background-size: cover;
     -ms-background-size: cover;
     -webkit-background-size: cover;
-    min-height: 250px;
+    min-height: 400px;
+}
+
+.inner-pages {
+    background: url(../images/3feature.jpg) no-repeat center;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    min-height: 400px;
+}
+
+.inner-paged {
+    background: url(../images/Awesome-HD-Pic.jpg) no-repeat center;
+    background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -webkit-background-size: cover;
+    min-height: 400px;
 }
 
 ol.breadcrumb {

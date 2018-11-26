@@ -5,7 +5,7 @@ class Gallery extends Component{
     render(){
         return(
             <div>
-              <div className="inner-page"></div>
+              <div className="inner-paged"></div>
               {/* /breadcrumb */}
               <ol className="breadcrumb">
                 <li className="breadcrumb-item">

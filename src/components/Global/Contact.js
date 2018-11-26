@@ -5,7 +5,7 @@ class Contact extends Component{
     render(){
         return(
             <div>
-                <div className="inner-page">
+                <div className="inner-pages">
             </div>
             {/* /breadcrumb */}
             <ol className="breadcrumb">
