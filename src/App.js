@@ -37,9 +37,9 @@ import BlogPage from './containers/Global/BlogPage';
 import ContactPage from './containers/Global/ContactPage';
 
 //Contents
-// import Header from './components/Global/Header';
-// import Menu from './components/Global/Menu';
-// import Footer from './components/Global/Footer';
+import Header from './components/Global/Header';
+import Menu from './components/Global/Menu';
+import Footer from './components/Global/Footer';
 
 //Graph cool connection using Apollo
 import createBrowserHistory from 'history/createBrowserHistory';
@@ -66,10 +66,10 @@ const client = new ApolloClient({ link, cache });
 
 const UserRegister = ({ match }) => (
 	<div>	
-		{/* <Header />
-		<Menu />	 */}
+		<Header />
+		<Menu />	
 		<Register match={match} />	
-		{/* <Footer /> */}
+		<Footer />
 	</div>
 );
 

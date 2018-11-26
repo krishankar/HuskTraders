@@ -66,24 +66,16 @@ class Register extends Component {
         //     return (<RiceMillRegister onRiceMillSubmitted={this.onRiceMillSubmitted} userType={this.state.userType} />)
         // }
 
-        else if ((this.state.step1Submitted == false)&&((this.state.userType=="RiceMill")||(this.state.userType=="Agent")||(this.state.userType=="Factory"))){
+        else if ((this.state.step1Submitted == false)){
             return (<Step1 onStep1Submitted={this.onStep1Submitted} userType={this.state.userType} phone ={this.state.phone} />)
         }
 
-        else if ((this.state.step2Submitted == false) && ((this.state.userType === "RiceMill") || (this.state.userType=="Agent" )||( this.state.userType === "Factory"))) {
+        else if ((this.state.step2Submitted == false)) {
             return (<Step2 onStep2Submitted={this.onStep2Submitted} id={this.state.id} userType={this.state.userType} />)
         }
 
-        else if((this.state.userType == false) && (this.state.userType ==="RiceMill")||(this.state.userType==="Agent")||(this.state.userType==="Factory")){
+        else{
             return (<RegisterConfirmation />)            
-        }
-        
-        else {
-            return(
-                <div>
-                    <h1>Registration is not completed</h1>
-                </div>
-            )
         }
     }
 }

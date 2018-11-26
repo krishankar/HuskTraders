@@ -110,7 +110,7 @@ class OTP extends Component {
 				<section>
 				<div className="mian-content"></div>
 					<div className="header-top-w3layouts-agile">
-						<div className="header-bg">
+						<div className="header-bg" style={{backgroundColor:"white"}}>
 							<div className="container">							
 								<div className="col-md-6 content">
 									<h1>Join Husk Traders</h1>
