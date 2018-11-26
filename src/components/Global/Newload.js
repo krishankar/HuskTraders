@@ -28,7 +28,7 @@ class Newload extends Component{
                     
                 </form>  
                     <button>
-                        next
+                        Next
                     </button>
              </div>
             <div className="newLoad mt-5 container text-cente">
@@ -51,7 +51,7 @@ class Newload extends Component{
                    
                 </form>
                 <button>
-                        next
+                        Next
                     </button>
             </div>
         <div className="workersdetails mt-5 container">
@@ -61,93 +61,91 @@ class Newload extends Component{
             
             <form>
                 <div className="form-row">
-                    <div className="form-group col-md-6">
-                        <label for="formGroupNameInput">Name</label>
+                    <div className="form-group col-md-6">                       
                         <input type="text" className="form-control" id="NameInput" placeholder="Name"/>
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Id</label>
+                    <div className="form-group col-md-1 ">                    
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Gender</label>
+                    <div className="form-group col-md-1 ">                    
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Age</label>
+                    <div className="form-group col-md-1 ">                    
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Remove</label>
+                    <div className="form-group col-md-1 ">                    
                     <a href="#" className="btn btn-danger "><i className="fa fa-times"></i></a>
                     </div>
                 </div>
                 <div className="form-row">
-                    <div className="form-group col-md-6">
-                        <label for="formGroupNameInput">Name</label>
+                    <div className="form-group col-md-6">                        
                         <input type="text" className="form-control" id="NameInput" placeholder="Name"/>
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Id</label>
+                    <div className="form-group col-md-1 ">                   
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Gender</label>
+                    <div className="form-group col-md-1 ">                    
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Age</label>
+                    <div className="form-group col-md-1 ">                    
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Remove</label>
+                    <div className="form-group col-md-1 ">                   
                     <a href="#" className="btn btn-danger "><i className="fa fa-times"></i></a>
                     </div>
                 </div>
                 <div className="form-row">
-                    <div className="form-group col-md-6">
-                        <label for="formGroupNameInput">Name</label>
+                    <div className="form-group col-md-6">                        
                         <input type="text" className="form-control" id="NameInput" placeholder="Name"/>
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Id</label>
+                    <div className="form-group col-md-1 ">                   
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Gender</label>
+                    <div className="form-group col-md-1 ">                    
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Age</label>
+                    <div className="form-group col-md-1 ">                    
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Remove</label>
+                    <div className="form-group col-md-1 ">                   
                     <a href="#" className="btn btn-danger "><i className="fa fa-times"></i></a>
                     </div>
                 </div>
                 <div className="form-row">
-                    <div className="form-group col-md-6">
-                        <label for="formGroupNameInput">Name</label>
+                    <div className="form-group col-md-6">                        
                         <input type="text" className="form-control" id="NameInput" placeholder="Name"/>
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Id</label>
+                    <div className="form-group col-md-1 ">                   
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Gender</label>
+                    <div className="form-group col-md-1 ">                    
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Age</label>
+                    <div className="form-group col-md-1 ">                    
                     <input type="text" className="form-control" id="" />
                     </div>
-                    <div className="form-group col-md-1 ">
-                    <label for="formGroupNameInput">Remove</label>
-                    <a href="#" ><button className="but btn btn-success">Add</button></a>
+                    <div className="form-group col-md-1 ">                    
+                    <a href="#" className="btn btn-danger "><i className="fa fa-times"></i></a>
                     </div>
-                </div>  
+                </div>
+                <div className="form-row">
+                    <div className="form-group col-md-6">                        
+                        <input type="text" className="form-control" id="NameInput" placeholder="Name"/>
+                    </div>
+                    <div className="form-group col-md-1 ">                   
+                    <input type="text" className="form-control" id="" />
+                    </div>
+                    <div className="form-group col-md-1 ">                    
+                    <input type="text" className="form-control" id="" />
+                    </div>
+                    <div className="form-group col-md-1 ">                    
+                    <input type="text" className="form-control" id="" />
+                    </div>
+                    <div className="form-group col-md-1 ">                    
+                    <a href="#" className="btn btn-danger "><i className="fa fa-times"></i></a>
+                    </div>
+                </div>
+                
             </form>
             <div className="mt-3">
             <button>

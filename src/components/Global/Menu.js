@@ -1,7 +1,28 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 
 class Menu extends Component {
+
+	logout() {
+		localStorage.clear();
+		this.props.history.push('/Login');
+	}
+
+	dataToAgent() {
+		localStorage.clear();
+		window.location.href = '/Register/Agent';
+	}
 	
+	dataToRiceMill() {
+		localStorage.clear();
+		window.location.href = '/Register/RiceMill';
+	}
+
+	dataToFactory() {
+		localStorage.clear();
+		window.location.href = '/Register/Factory';
+	}
+
 	render() {
 		return (
 			<div className="mian-content">
@@ -30,7 +51,7 @@ class Menu extends Component {
 												</a>
 											</li>
 											<li className="nav-item">
-												<a className="nav-link" href="/about">
+												<a className="nav-link" href="/About">
 													About
 												</a>
 											</li>
@@ -48,40 +69,130 @@ class Menu extends Component {
 													<i className="fas fa-angle-down" />
 												</a>
 												<div className="dropdown-menu" aria-labelledby="navbarDropdown">
-													<a className="dropdown-item" href="/loadstatus">
+													<a className="dropdown-item" 
+														onClick={() => {
+															this.props.history.push('/Services/LoadStatus');
+														}}	
+														style={{ cursor: 'pointer' }}													
+													>													
 														Load Status
-													</a>
-													<a className="dropdown-item" href="/ricemillstatus" title>
+													</a>													
+													<a className="dropdown-item" 
+														onClick={() => {
+															this.props.history.push('/Services/RiceMillStatus');
+														}}
+														style={{ cursor: 'pointer' }}
+													>
 														RiceMill Status
 													</a>
-													<a className="dropdown-item" href="" title>
+													<a className="dropdown-item"
+														onClick={() => {
+															this.props.history.push('/Services/FactoryStatus');
+														}}
+														style={{ cursor: 'pointer' }}
+													>
 														Factory Status
 													</a>
-													<a className="dropdown-item" href="/workersstatus" title>
+													<a className="dropdown-item" 
+														onClick={() => {
+															this.props.history.push('/Services/WorkerStatus');
+														}}
+														style={{ cursor: 'pointer' }}
+													>
 														Workers Status
 													</a>
 												</div>
 											</li>
 											<li className="nav-item">
-												<a className="nav-link" href="/newload">
+												<a className="nav-link" 
+													onClick={() => {
+														this.props.history.push('/NewLoad');
+													}}
+													style={{ cursor: 'pointer' }}
+												>
 													New Load
 												</a>
 											</li>
 											<li className="nav-item">
-												<a className="nav-link" href="/gallery">
+												<a className="nav-link" 
+													onClick={() => {
+														this.props.history.push('/Gallery');
+													}}
+													style={{ cursor: 'pointer' }}
+												>
 													Gallery
 												</a>
 											</li>
 											<li className="nav-item">
-												<a className="nav-link" href="/blog">
+												<a className="nav-link" 
+													onClick={() => {
+														this.props.history.push('/Blog');
+													}}
+													style={{ cursor: 'pointer' }}
+												>
 													Blog
 												</a>
 											</li>
 											<li className="nav-item">
-												<a className="nav-link" href="/contact">
+												<a className="nav-link" 
+													onClick={() => {
+														this.props.history.push('/Contact');
+													}}
+													style={{ cursor: 'pointer' }}
+												>
 													Contact
 												</a>
 											</li>
+											{localStorage.getItem('userType') == 'Advocate' ||
+											localStorage.getItem('userType') == 'Policestation' ||
+											localStorage.getItem('userType') == 'Court' ? (
+												""
+												):(
+												<ul className="dropdown-menus" style={{ display: 'flex', listStyleType: 'none'}}>
+													<li className="nav-item dropdown">
+														<a
+															className="nav-link dropdown-toggle menustyles"
+															href=""
+															id="navbarDropdownMenuLink"
+															data-toggle="dropdown"
+															aria-haspopup="true"
+															aria-expanded="false"										
+														>
+															Register
+														</a>
+														<ul
+															className="dropdown-menu menustyles"
+															aria-labelledby="navbarDropdownMenuLink"										
+														>
+															<li>
+																<a className="dropdown-item" onClick={this.dataToAgent.bind(this)}>
+																	Agent
+																</a>
+															</li>
+															<li>
+																<a className="dropdown-item" onClick={this.dataToRiceMill.bind(this)}>
+																	RiceMill
+																</a>
+															</li>
+															<li>
+																<a className="dropdown-item" onClick={this.dataToFactory.bind(this)}>
+																	Factory
+																</a>
+															</li>										
+														</ul>
+													</li>
+													<li className="nav-item">
+														<a
+															className="nav-link menustyles"										
+															onClick={() => {
+																this.props.history.push('/Login');
+															}}
+														>
+															Login
+														</a>
+													</li>
+												</ul>
+											)}
 										</ul>
 										<form
 											action="#"
@@ -109,4 +220,5 @@ class Menu extends Component {
 		);
 	}
 }
-export default Menu;
+export default withRouter(Menu);
+ 

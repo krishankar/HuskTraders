@@ -1,0 +1,60 @@
+.mrB2 {
+	margin-bottom: 70px;
+}
+#mobNumber {
+	float: left;
+	width: 60%;
+	color: #000;
+}
+#cCode {
+	float: left;
+	width: 20%;
+	margin-right: 3%;
+	color: #000;
+}
+.g-recaptcha {
+	margin-right: 30px;
+}
+.recaptcha-checkbox {
+	border: none;
+	font-size: 1px;
+	height: 8px;
+	margin: 4px;
+	width: 18px;
+	overflow: visible;
+	outline: 0;
+	vertical-align: text-bottom;
+}
+.recaptcha-checkbox-checked .recaptcha-checkbox-checkmark {
+	background-position: 0 -600px;
+}
+.recaptcha-checkbox-checkmark {
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAATsCAYAAADsAfBvAAAABmJLR…c8fQAAAIA4Ve/BleITOu7J3HehqXqHPH0AAAAAAAAAALr5H72AWmG4R73sAAAAAElFTkSuQmCC);
+	background-repeat: no-repeat;
+	border: none;
+	height: 30px;
+	left: -5px;
+	outline: 0;
+	position: absolute;
+	width: 38px;
+}
+#backBtn {
+	margin-top: 10px;
+}
+.btn {
+	border-radius: 2px;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #dfb924;
+}
+.btn-medium {
+	padding: 11px 20px;
+	margin-left: 5px;
+}
+#resendLink {
+	width: 60%;
+}
+.form-group {
+	margin-bottom: 20px;
+}

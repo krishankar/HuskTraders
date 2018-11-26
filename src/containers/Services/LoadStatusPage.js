@@ -5,11 +5,7 @@ import Footer from '../../components/Global/Footer'
 import LoadStatus from '../../components/Services/LoadStatus';
 
 class LoadStatusPage extends Component{
-    constructor(){
-        super();
-        this.state={}
-    }
-
+    
     render(){
         return(
             <div>

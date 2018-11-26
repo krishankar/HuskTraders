@@ -61,19 +61,10 @@ class Header extends Component{
                       <i className="fas fa-leaf" />Husk Traders</a>
                   </h1>
                 </div>
-                <div className="col-md-3 login-right-img text-center">
-                  <a className="request text-uppercase" href="#" data-toggle="modal" data-target="#exampleModalCenter">Sign In</a>
+                <div className="col-md-3 login-right-img text-center Names">
+                  <a className="request text-uppercase">Agent name</a>
                   <a className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle request text-uppercase" href="#" data-toggle="modal" id="navbarDropdown" data-target="#exampleModalCenter2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Register
-                        <i className="fas fa-angle-down" />
-                    </a>
-                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="/loadstatus">Agent</a>
-                        <a className="dropdown-item" href="services.html" title>RiceMill</a>
-                        <a className="dropdown-item" href="single.html" title>Factory</a>
-                        
-                    </div>
+                   
                   </a>
                 </div>
               </div>

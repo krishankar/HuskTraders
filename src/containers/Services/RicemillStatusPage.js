@@ -5,11 +5,7 @@ import Ricemill from '../../components/Services/RicemillStatus';
 import Menu from '../../components/Global/Menu';
 
 class RicemillStatusPage extends Component {
-	constructor() {
-		super();
-		this.state = {};
-	}
-
+	
 	render() {
 		return (
 			<div>
