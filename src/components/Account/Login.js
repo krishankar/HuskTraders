@@ -101,10 +101,7 @@ class Login extends Component {
         });
     }
 	render() {
-		// var user={
-        //     userId:localStorage.getItem('userid'),
-        // }
-        if (this.state.paymentPending ==true && (localStorage.getItem("userType") === "Agent")) {
+		if (this.state.paymentPending ==true && (localStorage.getItem("userType") === "Agent")) {
             return(<Redirect to={{
 				pathname: '/confirm',
 				state: {userId:"12321321" }
@@ -162,45 +159,7 @@ class Login extends Component {
 							</div>
 						</div>       
 					</div>
-				</div>
-				
-				// <section className="home mt-3">
-				// 	<div className="container">
-				// 		<div className="row">								
-				// 			<div className="col-md">								
-				// 					<div className="LoginTitle">Login</div>											
-				// 				<div className="LoginContent" >
-				// 					<form role="forms" styles="color: #e9c126">
-				// 						<div className="row setup-content" id="step-1">
-				// 							<div className="col-xs-12">
-				// 								<div className="col-md-12">
-				// 									<div className="form-group">
-				// 										<input maxLength="100" type="text" required="required" className="form-control" onChange={this.onUpdate.bind(this)} id="email" ref={(input) => { this.email = input; }} placeholder="Email" />
-				// 									</div>
-				// 									<div className="form-group">
-				// 										<input maxLength="100" type="password" required="required" className="form-control" onChange={this.onUpdate.bind(this)} id="password" ref={(input) => { this.password = input; }} placeholder="Password" />
-				// 									</div>
-				// 									<button className="btn btn-primary nextBtn btn-lg pull-right" type="button" onClick={this.login} >Login</button>
-				// 								</div>
-				// 								<a className="nav-link" href="./account/reset" className="signin" style={{ textDecoration: "None", }}>Forgot Password</a>
-				// 								<div className="mt-5">
-				// 								<a style={{justifyContent: "center", paddingTop:"30px"}}>New to Husk Traders? Click Register in the menu to signup</a>
-				// 								</div>
-				// 							</div>												
-				// 						</div>
-				// 					</form>						
-				// 					<div className="stepwizard d-none">
-				// 						<div className="stepwizard-row setup-panel">
-				// 							<div className="stepwizard-step">
-				// 								<a href="#step-1" type="button" className="btn btn-primary btn-circle">1</a>
-				// 							</div>
-				// 						</div>
-				// 					</div>
-				// 				</div>
-				// 			</div>								
-				// 		</div>
-				// 	</div>
-				// </section>				
+				</div>					
 			);
 		}
 	}

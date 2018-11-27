@@ -156,83 +156,12 @@ class Menu extends Component {
 												>
 													Contact
 												</a>
-											</li>
-											{/* {localStorage.getItem('userType') == 'Advocate' ||
-											localStorage.getItem('userType') == 'Policestation' ||
-											localStorage.getItem('userType') == 'Court' ? (
-												""
-												):(
-												<ul className="dropdown-menus" style={{ display: 'flex', listStyleType: 'none'}}>
-													<li className="nav-item dropdown">
-														<a
-															className="nav-link dropdown-toggle menustyles"
-															href=""
-															id="navbarDropdownMenuLink"
-															data-toggle="dropdown"
-															aria-haspopup="true"
-															aria-expanded="false"										
-														>
-															My HT
-														</a>
-														<ul
-															className="dropdown-menu menustyles"
-															aria-labelledby="navbarDropdownMenuLink"										
-														>
-															<li>
-																<a className="dropdown-item" onClick={this.dataToAgent.bind(this)}>
-																	My Profile
-																</a>
-															</li>
-															<li>
-																<a className="dropdown-item" onClick={this.dataToRiceMill.bind(this)}>
-																	Payment Status
-																</a>
-															</li>																									
-														</ul>
-													</li>
-													<li>
-														<a className="dropdown-item" onClick={this.logout.bind(this)}>
-															Logout
-														</a>
-													</li>
-												
-												) : (
-													<li className="nav-item dropdown">
-														<a
-															className="nav-link dropdown-toggle menustyles"
-															href=""
-															id="navbarDropdownMenuLink"
-															data-toggle="dropdown"
-															aria-haspopup="true"
-															aria-expanded="false"									
-														>
-															My HT
-														</a>
-														<ul
-															className="dropdown-menu menustyles"
-															aria-labelledby="navbarDropdownMenuLink"
-															style={{ cursor: 'pointer' }}
-														>
-															<li>
-																<a
-																	className="dropdown-item"
-																	onClick={() => {
-																		this.props.history.push('/Login');
-																	}}
-																>
-																	Services
-																</a>
-															</li>
-															
-														</ul>
-													</li>
-												</ul>
-											)} */}
+											</li>											
 											{localStorage.getItem('userType') == 'Agent' ||
 											localStorage.getItem('userType') == 'RiceMill' ||
 											localStorage.getItem('userType') == 'Factory' ? (
 												<ul className="dropdown-menus" style={{ display: 'flex', listStyleType: 'none'}}>
-												<li className="nav-item dropdown">
+													<li className="nav-item dropdown">
 														<a
 															className="nav-link dropdown-toggle menustyles"
 															href=""
@@ -258,13 +187,12 @@ class Menu extends Component {
 																</a>
 															</li>
 															<li>
-														<a className="dropdown-item" onClick={this.logout.bind(this)}>
-															Logout
-														</a>
-													</li>																									
+																<a className="dropdown-item" onClick={this.logout.bind(this)}>
+																	Logout
+																</a>
+															</li>																									
 														</ul>
-													</li>
-												
+													</li>												
 												</ul>
 												):(
 												<ul className="dropdown-menus" style={{ display: 'flex', listStyleType: 'none'}}>
