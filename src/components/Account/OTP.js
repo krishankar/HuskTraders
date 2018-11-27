@@ -64,8 +64,7 @@ class OTP extends Component {
 					},
 					body: formBody
 				})
-					.then((status) => {
-						// alert("Thank you, Your otp has been sent successfully.")
+					.then((status) => {						
 						this.setState({
 							OtpVerification: {
 								phone: this.state.OtpVerification.phone ,
