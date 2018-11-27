@@ -176,4 +176,6 @@ table tr:last-child td:last-child {
   position: absolute;
   left: 700px
 }
-
+.button{
+  border-radius: 8px
+}

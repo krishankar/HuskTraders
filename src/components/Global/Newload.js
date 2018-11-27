@@ -134,8 +134,8 @@ class Newload extends Component{
                                     <div className="form-group col-md-1 ">                    
                                             <input type="text" className="form-control" id="" />
                                     </div>
-                                    <div className="form-group col-md-1 ">                    
-                                            <a href="#" className="btn btn-danger "><i className="fa fa-times"></i></a>
+                                    <div className="form-group col-md-1 ">
+                                            <a href="" ><button className="but btn btn-success">Add</button></a>
                                     </div>
                                 </div>               
                             </form>
