@@ -18,7 +18,6 @@ class Login extends Component {
 			allUserProfiles: PropTypes.array,			
 		}).isRequired
 	};
-	
 	constructor(props) {
 		super(props);
 		console.log(this.props);
