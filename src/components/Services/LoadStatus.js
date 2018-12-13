@@ -181,7 +181,40 @@ class LoadStatus extends Component{
 
                 <div className="monthlytrips mt-5">
                     <lable className=" text-center"><h1>Monthly-Trips</h1></lable>
-                        <form >
+                    <div id="colorlib-reservation">
+                            <div className="container">
+                            <div className="row">
+                                <div className="col-md-12 search-wrap">
+                                <form method="post" className="colorlib-form">
+                                    <div className="row">
+                                    <div className="col-md-5">
+                                        <div className="form-group">
+                                        <label htmlFor="date">Check-in:</label>
+                                        <div className="form-field">
+                                            <i className="icon icon-calendar2" />
+                                            <input type="date" id="date" className="form-control date" placeholder="Check-in date" />
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div className="col-md-5">
+                                        <div className="form-group">
+                                        <label htmlFor="date">Check-out:</label>
+                                        <div className="form-field">
+                                            <i className="icon icon-calendar2" />
+                                            <input type="date" id="date" className="form-control date" placeholder="Check-out date" />
+                                        </div>
+                                        </div>
+                                    </div> 
+                                    <div className="col-md-2" style={{marginTop: "25px"}}>
+                                        <input type="submit" name="submit" id="submit" defaultValue="Search" className="btn btn-primary btn-block" />
+                                    </div>
+                                    </div>
+                                </form>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        {/* <form >
                             <div className="form-row mt-5">
                                 <div className="form-group col-md-6">
                                     <input type="date" className="form-control" id="inputFrom" placeholder="From"/>
@@ -193,7 +226,7 @@ class LoadStatus extends Component{
                         </form>
                             <button className="float-right">
                                 Next
-                            </button>
+                            </button> */}
                     <div>   
                             <table className="box-2 my-5 ">
                         <thead className="text-center">

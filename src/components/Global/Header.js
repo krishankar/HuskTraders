@@ -57,7 +57,7 @@ class Header extends Component{
                 </div>
                 <div className="col-md-6 logo text-center">
                   <h1>
-                    <a className="navbar-brand" href="index.html">
+                    <a className="navbar-brand" href="/">
                       <i className="fas fa-leaf" />Husk Traders</a>
                   </h1>
                 </div>
